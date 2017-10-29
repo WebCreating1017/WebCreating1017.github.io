@@ -1,0 +1,385 @@
+ *::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.header_topline {
+	background-color: #43484C;
+	padding: 15px 0;
+	color: #fff;
+}
+.header_topline a{
+	color: #fff;
+}
+.top_links{
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
+}
+.top_links a {
+	text-decoration: underline;
+}
+.top_links a:hover {
+	text-decoration: none;
+}
+.soc_buttons{
+	float: right;
+}
+.soc_buttons > a{
+	font-size: 26px;
+	margin-left: 8px;
+}
+.phone_namber a{
+	float: left;
+	padding-left: 10px;
+	font-size: 22px;
+}
+.main_mnu_button{
+	border: none;
+	background-color: transparent;
+	font-size: 26px;
+}
+.main_mnu_button{
+	color: #fff;
+	padding: 8px 15px 0;
+}
+.logo{
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 42px;
+	text-align: center;
+}
+.top_header{
+	background-color: #4AAAD2;
+}
+.maian_mnu{
+	display: block;
+	color: #fff;
+	margin-bottom: 20px;
+	background-color: #3797bf;
+}
+.maian_mnu ul{
+	z-index: 20;
+}
+.maian_mnu a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	-webkit-transition: all .85s;
+	-o-transition: all .85s;
+	-moz-transition: all .85s;
+}
+.maian_mnu a:hover{
+	background-color: #2787af;
+}
+.maian_mnu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+}
+.maian_mnu ul li{
+	display: inline-block;
+}
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "RobotoCondensedLight";
+}
+/* Оформляем портфолио */
+.portfolio h2{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: "RobotoLight";
+}
+.slider_container img{
+	max-width: 100%;
+
+}
+.slider_container{
+	position: relative;
+}
+.next_button,
+.prev_button{
+	color: #fff;
+	font-size: 46px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top: 40%;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 0 25px;
+	border-radius: 50%;
+}
+.next_button{
+	right: 20px;
+}
+.prev_button{
+	left: 20px;
+}
+section.order{
+	background-color: #eee;
+	padding: 25px 0;
+}
+.sell_descr{
+	font-size: 22px;
+	padding-top: 5px;
+}
+.button{
+	background-color: #2bc6a4;
+	border: 1px solid #2bc6a4;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+.button:hover{
+	color: #4eafc8;
+	background-color: #fff;
+	border: 1px solid #4eafc8;
+	border-radius: 5px;
+}
+.button:active{
+	color: #4eafc8;
+	background-color: #fff;
+	border: 1px solid #4eafc8;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #4eafc8 inset;
+}
+.sell_right .button{
+	float: right;
+}
+.hidden{
+	display: none;
+}
+.pop_form input[type=text]{
+	display: block;
+	width: 90%;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	border: 3px solid #999;
+} 
+.pop_form .button{
+	margin:  15px auto 0;
+}
+.pop_form h3{
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoCondensedBold";
+	text-transform: uppercase;
+}
+.blog_item img{
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.blog_item h3{
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+	
+}
+.blog_item h3 a{
+	text-decoration: underline;
+}
+.blog_item p{
+	margin-top: 0;
+}
+.right_aside{
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: #eee;
+	margin-top: 3`0px;
+}
+/*SERVICES*/
+.services{
+	background-color: #fff;
+}
+.services h3{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+	font-size: 40px;
+	font-family: "RobotoLight";
+}
+.services_item label{
+	display: block;
+	background-color: #eee;
+	margin: 0 auto;
+	max-width: 900px;
+	margin-top: 10px;
+}
+.services_item .label_open{
+	display: block;
+	width: 100%;
+	max-width: 900px;
+	padding: 10px;
+	color: #333;
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {
+    display: none; 
+}
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+    padding: 0;
+    color: green;
+    cursor: pointer;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: red;
+    max-width: 900px;
+	padding: 10px;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    max-width: 900px;
+    margin: 10px auto;
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
+/* чуточку анимации при появлении */
+     -webkit-animation:fade ease-in 0.5s; 
+     -moz-animation:fade ease-in 0.5s;
+     animation:fade ease-in 0.5s; 
+}
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }   
+}
+.hide + label:before {
+    background-color: #333;
+    color: #fff;
+    content: "\002B";
+    display: block;
+    float: left;
+    font-size: 14px; 
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 15px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.hide:checked + label:before {
+    content: "\2212";
+}
+/* оформляем всплывающее окно */
+.services_photo img{
+	width: 100%;
+}
+.container_width{
+	max-width: 900px;
+}
+.services_content_item p{
+	width: 100%;
+}
+.services_price {
+	padding: 0;
+	margin: 0;
+}
+.services_price li{
+	font-size: 22px;
+	color: red;
+	margin-left: 25px;
+}
+.services_price li:first-child{
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-left: 0px;
+}
+.services_price li:nth-child(4){
+	font-size: 18px;
+}
+hr{
+	height: 1px;
+	background-color: red;
+	padding: 0;
+	margin: 0;
+}
+/* Оформление формы обратной связи */
+.form_section{
+	display: block;
+	margin-top:20px;
+	padding: 20px 10px;
+	background: rgba(202,97,204,0.7);
+background: -webkit-linear-gradient(left, rgba(202,97,204,0.7) 0%, rgba(194,71,190,0.8) 33%, rgba(168,0,157,1) 100%);
+background: -o-linear-gradient(left, rgba(202,97,204,0.7) 0%, rgba(194,71,190,0.8) 33%, rgba(168,0,157,1) 100%);
+background: linear-gradient(to right, rgba(202,97,204,0.7) 0%, rgba(194,71,190,0.8) 33%, rgba(168,0,157,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( s: ;tartColorstr='#ca61cc', endColorstr='#a8009d', GradientType=1 );
+width: 100%;
+}
+.form{
+	max-width: 450px;
+	margin: 0 auto;
+}
+.form_name{
+	margin:0;
+	padding: 0;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.form input{
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.form textarea{
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.form input[type=submit]{
+
+	margin-bottom: 30px;
+}
