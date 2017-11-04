@@ -18,7 +18,7 @@
 	}
 
 	.maian_mnu ul {
-		background-color: #3797bf;
+		background-color: rgba(111, 88, 120, 0.4);
 		display: none;
 		position: absolute;
 		width: 100%;
@@ -34,7 +34,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.top_links {
-		background-color: #585d61;
+		background-color: rgba(111, 88, 120, 0.4);
 		display: none;
 		margin-top: 15px;
 		padding: 14px;

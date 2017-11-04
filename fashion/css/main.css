@@ -26,14 +26,13 @@ body textarea:required:valid {
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
+	max-width: 1920px;
+	margin: 0 auto;
 }
-.header_topline {
-	background-color: #43484C;
-	padding: 15px 0;
-	color: #fff;
-}
-.header_topline a{
-	color: #fff;
+.main_mnu_top{
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #fff;
 }
 .top_links{
 	display: inline-block;
@@ -48,15 +47,22 @@ body {
 }
 .soc_buttons{
 	float: right;
+	line-height: 24px;
 }
 .soc_buttons > a{
 	font-size: 26px;
 	margin-left: 8px;
+	color: #fff;
+}
+.soc_buttons a{
+	line-height: 45px;
+}
+.phone_namber{
+	text-align: center;
 }
 .phone_namber a{
-	float: left;
-	padding-left: 10px;
 	font-size: 22px;
+	color: #fff;
 }
 .main_mnu_button{
 	border: none;
@@ -69,20 +75,28 @@ body {
 }
 .logo{
 	display: block;
-	padding: 15px 0;
-	color: #fff;
-	font-family: "NautilusPompiliusRegular";
-	font-size: 42px;
-	text-align: center;
+    margin-top: 7%;
+    padding: 15px 0;
+    color: #fff;
+    font-family: "NautilusPompiliusRegular";
+    font-size: 65px;
+    text-align: center;
 }
 .top_header{
-	background-color: #4AAAD2;
+	background-image: url(../img/bgc_photo22.jpg);
+	 background-repeat: no-repeat; 
+	 background-size: cover;       
+    position: relative;        
+    width: 100%;            
+    height: auto;    
+    min-height: 650px;   
+    margin-left: auto;      
+    margin-right: auto
 }
 .maian_mnu{
 	display: block;
+	float: left;
 	color: #fff;
-	margin-bottom: 20px;
-	background-color: #3797bf;
 }
 .maian_mnu ul{
 	z-index: 20;
@@ -96,7 +110,7 @@ body {
 	-moz-transition: all .85s;
 }
 .maian_mnu a:hover{
-	background-color: #2787af;
+	background-color: rgba(111, 88, 120, 0.4); 
 }
 .maian_mnu ul{
 	margin: 0;
@@ -112,8 +126,19 @@ h1{
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: "RobotoCondensedLight";
+	font-family: "RobotoBold";
+	font-size: 5em;
+	margin-bottom: 0px;
 }
+.subtitle{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "RobotoLight";
+	font-size: 2em;
+	margin-top: 0px;
+}
+
 /* Оформляем портфолио */
 .portfolio h2{
 	display: block;
@@ -223,29 +248,41 @@ section.order{
 }
 /*SERVICES*/
 .services{
-	background-color: #fff;
+	background-image: url(../img/bgc_photo_services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .services h3{
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: black;
 	font-size: 40px;
 	font-family: "RobotoLight";
 }
 .services_item label{
 	display: block;
-	background-color: #eee;
+	background-color: rgba(0, 0, 0, 0.4); 
 	margin: 0 auto;
 	max-width: 900px;
 	margin-top: 10px;
+	margin-bottom: 30px;
+	border-right: 5px;
 }
 .services_item .label_open{
 	display: block;
 	width: 100%;
 	max-width: 900px;
 	padding: 10px;
-	color: #333;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 5px;
 }
 /* скрываем чекбоксы и блоки с содержанием */
 .hide, .hide + label ~ div {
@@ -350,12 +387,12 @@ hr{
 	display: block;
 	margin-top:20px;
 	padding: 20px 10px;
-	background: rgba(202,97,204,0.7);
-background: -webkit-linear-gradient(left, rgba(202,97,204,0.7) 0%, rgba(194,71,190,0.8) 33%, rgba(168,0,157,1) 100%);
-background: -o-linear-gradient(left, rgba(202,97,204,0.7) 0%, rgba(194,71,190,0.8) 33%, rgba(168,0,157,1) 100%);
-background: linear-gradient(to right, rgba(202,97,204,0.7) 0%, rgba(194,71,190,0.8) 33%, rgba(168,0,157,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( s: ;tartColorstr='#ca61cc', endColorstr='#a8009d', GradientType=1 );
-width: 100%;
+	background-image: url(../img/bgc_photo_services4.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+	height: auto;
+	min-height: 650px;
 }
 .form{
 	max-width: 450px;
@@ -382,4 +419,23 @@ width: 100%;
 .form input[type=submit]{
 
 	margin-bottom: 30px;
+}
+/* оформление футера */
+.footer_bottom_line{
+	background-color: #2a1a1f;
+}
+.footer_phone_namber {
+	padding: 15px;
+	float: left;
+}
+.footer_phone_namber i, .footer_phone_namber a{
+	color: #fff;
+	font-size: 22px;
+}
+.footer_soc_buttons a{
+	line-height: 60px;
+	color: #fff;
+	font-size: 26px;
+	float: right;
+	margin-left: 8px;
 }
