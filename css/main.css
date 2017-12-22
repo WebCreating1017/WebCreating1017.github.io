@@ -17,11 +17,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	border:red 3px solid
+	border:red 1px solid;
 }
 body input:required:valid,
 body textarea:required:valid {
-	border: green 3px solid
+	border: green 1px solid;
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -181,8 +181,8 @@ section.order{
 	padding-top: 5px;
 }
 .button{
-	background-color: #2bc6a4;
-	border: 1px solid #2bc6a4;
+	background-color: #53242e;
+	border: 1px solid #53242e;
 	border-radius: 5px;
 	color: #fff;
 	display: block;
@@ -190,17 +190,17 @@ section.order{
 	text-transform: uppercase;
 }
 .button:hover{
-	color: #4eafc8;
+	color: #53242e;
 	background-color: #fff;
-	border: 1px solid #4eafc8;
+	border: 1px solid #53242e;
 	border-radius: 5px;
 }
 .button:active{
-	color: #4eafc8;
+	color: #53242e;
 	background-color: #fff;
-	border: 1px solid #4eafc8;
+	border: 1px solid #53242e;
 	border-radius: 5px;
-	box-shadow: 0 0 10px #4eafc8 inset;
+	box-shadow: 0 0 10px #53242e inset;
 }
 .sell_right .button{
 	float: right;
@@ -248,7 +248,7 @@ section.order{
 }
 /*SERVICES*/
 .services{
-	background-image: url(../img/bgc_photo_services.jpg);
+	background-image: url(../img/bgc_feedback1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -262,9 +262,9 @@ section.order{
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
-	color: black;
-	font-size: 40px;
-	font-family: "RobotoLight";
+	color: #fff;
+	font-size: 60px;
+	font-family: "RobotoBold";
 }
 .services_item label{
 	display: block;
@@ -276,6 +276,7 @@ section.order{
 	border-right: 5px;
 }
 .services_item .label_open{
+	position: relative;
 	display: block;
 	width: 100%;
 	max-width: 900px;
@@ -283,6 +284,7 @@ section.order{
 	font-size: 18px;
 	color: #fff;
 	border-radius: 5px;
+	text-align: center;
 }
 /* скрываем чекбоксы и блоки с содержанием */
 .hide, .hide + label ~ div {
@@ -387,7 +389,7 @@ hr{
 	display: block;
 	margin-top:20px;
 	padding: 20px 10px;
-	background-image: url(../img/bgc_photo_services4.jpg);
+	background-image: url(../img/bgc-feedback.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
 	width: 100%;
@@ -400,29 +402,47 @@ hr{
 }
 .form_name{
 	margin:0;
+	margin-top: 50px;
 	padding: 0;
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
+	color: #fff;
+	font-size: 40px;
 	padding-bottom: 15px;
 }
 .form input{
 	display: block;
 	width: 100%;
 	margin-bottom: 15px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 22px;
 }
 .form textarea{
 	display: block;
 	width: 100%;
 	margin-bottom: 15px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 22px;
 }
 .form input[type=submit]{
 
 	margin-bottom: 30px;
+	font-size: 14px;
+	line-height: 22px;
 }
 /* оформление футера */
 .footer_bottom_line{
 	background-color: #2a1a1f;
+
 }
 .footer_phone_namber {
 	padding: 15px;
